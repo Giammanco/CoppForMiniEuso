@@ -1,0 +1,9 @@
+#!/bin/bash
+g++ -std=c++0x SetMatrixDac7.cpp -o SetMatrixDac7
+g++ -std=c++0x SetMatrixDac10.cpp -o SetMatrixDac10
+g++ -std=c++0x DeadPixelRead.cpp -o SetNoTriggerMask
+
+echo " "
+echo 'Remember the dac7.txt and dac10.txt are read first in usb0'
+echo 'then, if are not there, in usb1; and finally  in local config directory .'
+echo " "
